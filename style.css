@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* Hide the scrollbar for all scrollable elements */
+::-webkit-scrollbar {
+    width: 0.5em; /* Width of the scrollbar track */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Color of the scrollbar thumb on hover */
+}
+
+/* Define the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Define the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+}
+
+/* Hide the scrollbar for Firefox */
+
+.navbar{
+    width: 100vw;
+}
+
+.nm-logo{
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    background-color: #CD2628;
+    color: white;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.color-red{
+    color: #CD2628;
+}
+
+.color-red:hover{
+    font-weight: 500;
+}
+
+
+.home{
+    background: url("5166950.jpg") no-repeat;
+    background-size: cover;
+
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.home-date{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 9vh;
+color: #CD2628;
+text-align: center;
+font-weight: 500;
+
+}
+
+.title{
+    font-weight: 700;
+    font-size: 7vh;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+margin-left: 5vw;
+margin-right: 5vw;
+margin-top: 5vw;
+color: white;
+}
+
+.btn-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.btn-logo{
+    margin-right: 10vw;
+}
+
+.mode{
+    color: white;
+    font-size: x-large;
+}
+
+.register-btn{
+    padding: 15px;
+    background-color: #CD2628;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10vw;
+    font-weight: 600;
+}
+
+.nm-logo{
+    margin-right: 10vw;
+}
+
+/*about*/
+
+.about{
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about div{
+    width: 40vw;
+    min-height: 70vh;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    border: 3px solid #CD2628;
+}
+
+.about div h1{
+    margin: 50px;
+    text-align: center;
+    color: white;
+    background-color: #CD2628;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.about div p{
+    margin: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.proceedings{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proceedings-sub{
+    width: 75vw;
+    border: 2px solid #CD2628;
+    border-radius: 10px;
+    min-height: 30vh;
+    background-color: #f8f9fa;
+}
+
+.proceedings-sub h1{
+    text-align: center;
+    background-color: #CD2628;
+    color: white;
+}
+
+.proceedings-sub p{
+    margin: 20px;
+}
+
+.tracks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.track{
+    width: 30%;
+    padding: 50px;
+}
+
+.track h4{
+    color: #CD2628;
+}
+.paper-sub{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paper-sub div{
+    height: 70vh;
+    width: 30vw;
+    border: 2px solid #CD2628;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paper-sub div h1{
+    margin: 10px;
+    background-color: #CD2628;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.paper-sub div p{
+    margin: 15px;
+    text-align: justify;
+}
+
+.paper-sub div button{
+    border: none;
+    padding: 10px;
+    width: 10vw;
+    background-color: #CD2628;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.speakers{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.speakers h1{
+    color: #CD2628;
+    font-weight: 500;
+}
+
+.speaker-img{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid #CD2628;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.speaker-img h5{
+    /* width: auto; */
+    background-color: #CD2628;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.committees{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.committees h1{
+    color: #CD2628;
+}
+.committees h4{
+    font-weight:500;
+    color: #CD2628;
+    margin: 10px;
+}
+
+.committees div{
+    background-color: #f8f9fa;
+    width: 60vw;
+    height: 50vh;
+    border: 3px solid #CD2628;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.committees div ul{
+    list-style-type: none;
+}
+
+.contact-us{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map{
+    width: 35vw;
+    height: 60vh;
+}
+
+.contact-info{
+    border-radius: 10px;
+    width: 20vw;
+    height: 40vh;
+    background-color: #f8f9fa;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .home-date{
+        font-size: 5vh;
+        color: white;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh; */
+    }
+
+    .title{
+        font-size: larger;
+        color: #CD2628;
+    }
+
+    .btn-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .btn-logo a{
+        width: 150px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        margin-top: 50px;
+    }
+
+    .about div{
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .about div h1{
+        margin: 10px;
+        font-weight: 500;
+        font-size: xx-large;
+    }
+
+    .about div p{
+        margin: 10px;
+        font-weight: 400;
+    }
+
+    .proceedings{
+        height: auto;
+    }
+
+    .proceedings div{
+        height: auto;
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+
+    .paper-sub{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paper-sub div{
+        width: 90vw;
+        margin-bottom: 10px;
+    }
+
+    .paper-sub div button{
+        width: 50vw;
+    }
+
+    .speakers{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .speakers h1{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .speaker-img{
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+
+    .speaker-img div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speaker-img div h5{
+        width: auto;
+    }
+
+    .committees h1{
+        font-size: x-large;
+    }
+
+    .committees div{
+        width: 90vw;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .map{
+        width: 90vw;
+        height: auto;
+    }
+
+    .map iframe{
+        width: 90vw;
+    }
+
+    .contact-info{
+        margin-top: 20px;
+        width: 90vw;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
