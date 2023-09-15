@@ -290,6 +290,41 @@ color: white;
     margin: 50px;
 }
 
+.regis{
+    min-height: auto;
+    width: 70vw;
+    border: 3px solid #CD2628;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.regis h1{
+    margin: 10px;
+    background-color: #CD2628;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 50px;
+}
+
+.regis-table{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.regis-note{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 .paper-sub{
     height: 100vh;
     width: 100vw;
@@ -385,6 +420,7 @@ td{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .committees h1{
@@ -399,7 +435,7 @@ td{
 .committees div{
     background-color: #f8f9fa;
     width: 60vw;
-    height: 50vh;
+    height: auto;
     border: 3px solid #CD2628;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -407,6 +443,7 @@ td{
 
 .committees div ul{
     list-style-type: none;
+    margin-left: 20px;
 }
 
 .contact-container{
@@ -448,6 +485,10 @@ td{
 
     width: 35vw;
     height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-info{
@@ -576,28 +617,13 @@ td{
         width: 90vw;
     }
 
-    .contact-us{
-        display: flex;
-        flex-direction: column;
+    
 
-    }
+    
 
-    .map{
-        width: 90vw;
-        height: auto;
-    }
+    
 
-    .map iframe{
-        width: 90vw;
-    }
-
-    .contact-info{
-        margin-top: 20px;
-        width: 90vw;
-        min-height: 50vh;
-        display: flex;
-        flex-direction: column;
-    }
+    
 
     .tracks{
         flex-direction: column;
@@ -610,6 +636,53 @@ td{
     .author-sub p{
         margin: 10px;
     }
+
+    .regis{
+        width: 90vw;
+    }
+
+    .regis-table{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .regis-table table{
+        margin: 10px;
+    }
+
+    .regis-note ul{
+        margin-left: 20px;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact-info{
+        width: 75vw;
+        text-align: left;
+        font-size: small;
+    }
+
+    .map{
+        width: 75vw;
+        height: 75vh;
+    }
+
+    .map iframe{
+        width: 75vw;
+        height: 50vh;
+    }
+    
 
 }
 
